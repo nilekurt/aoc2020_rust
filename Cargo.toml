@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "aoc2020-common",
+    "problem_1"
+]
