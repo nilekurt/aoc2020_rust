@@ -2,5 +2,6 @@
 
 members = [
     "aoc2020-common",
-    "problem_1"
+    "problem_1",
+    "problem_2"
 ]

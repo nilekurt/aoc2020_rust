@@ -58,8 +58,8 @@ fn main() {
         .expect("Failed to open input file");
 
     let mut lines = data.split('\n');
-    let part1 = lines.by_ref().filter(|s| match_entry(s, validate1)).count();
 
+    let part1 = lines.by_ref().filter(|s| match_entry(s, validate1)).count();
     let part2 = data
         .split('\n')
         .filter(|s| match_entry(s, validate2))
